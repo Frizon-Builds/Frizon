@@ -1,0 +1,13 @@
+{% capture header_content %}{{content_for_header}}{% endcapture %}
+{% if header_content contains 'cjpodflag' %}
+<script>
+    window.cjpod = window.cjpod || {};
+</script>
+  {% if template contains 'product' %}
+<script>
+      window.cjpod.product = window.cjpod.product || {{ product | json }};
+      window.cjpod.collections = window.cjpod.collections || {{ product.collections | json }};
+</script>
+<script src="https://app.cjdropshipping.com/static/shopify/pod/pod2.js"></script>
+  {% endif %}
+{% endif %}
