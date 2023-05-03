@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE85802F29E750340013471E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85802E29E750340013471E /* AppDelegate.swift */; };
+		CE85803129E750340013471E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85803029E750340013471E /* SceneDelegate.swift */; };
+		CE85803429E750340013471E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE85803229E750340013471E /* LaunchScreen.storyboard */; };
+		CE85803729E750340013471E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE85803529E750340013471E /* Main.storyboard */; };
+		CE85804029E750340013471E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85803F29E750340013471E /* AppDelegate.swift */; };
+		CE85804329E750340013471E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE85804129E750340013471E /* Main.storyboard */; };
+		CE85804A29E750340013471E /* Frizon Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE85804929E750340013471E /* Frizon Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE85805429E750340013471E /* Frizon Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE85805329E750340013471E /* Frizon Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE85805A29E750340013471E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CE85801529E750320013471E /* Main.html */; };
+		CE85805B29E750340013471E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CE85801529E750320013471E /* Main.html */; };
+		CE85805C29E750340013471E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE85801729E750320013471E /* Icon.png */; };
+		CE85805D29E750340013471E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE85801729E750320013471E /* Icon.png */; };
+		CE85805E29E750340013471E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CE85801829E750320013471E /* Style.css */; };
+		CE85805F29E750340013471E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CE85801829E750320013471E /* Style.css */; };
+		CE85806029E750340013471E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85801929E750320013471E /* Script.js */; };
+		CE85806129E750340013471E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85801929E750320013471E /* Script.js */; };
+		CE85806229E750340013471E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85801A29E750320013471E /* ViewController.swift */; };
+		CE85806329E750340013471E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85801A29E750320013471E /* ViewController.swift */; };
+		CE85806429E750340013471E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE85801B29E750340013471E /* Assets.xcassets */; };
+		CE85806529E750340013471E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE85801B29E750340013471E /* Assets.xcassets */; };
+		CE85806629E750340013471E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85801D29E750340013471E /* SafariWebExtensionHandler.swift */; };
+		CE85806729E750340013471E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85801D29E750340013471E /* SafariWebExtensionHandler.swift */; };
+		CE85806829E750340013471E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CE85801F29E750340013471E /* _locales */; };
+		CE85806929E750340013471E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CE85801F29E750340013471E /* _locales */; };
+		CE85806A29E750340013471E /* images in Resources */ = {isa = PBXBuildFile; fileRef = CE85802029E750340013471E /* images */; };
+		CE85806B29E750340013471E /* images in Resources */ = {isa = PBXBuildFile; fileRef = CE85802029E750340013471E /* images */; };
+		CE85806C29E750340013471E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE85802129E750340013471E /* manifest.json */; };
+		CE85806D29E750340013471E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE85802129E750340013471E /* manifest.json */; };
+		CE85806E29E750340013471E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85802229E750340013471E /* background.js */; };
+		CE85806F29E750340013471E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85802229E750340013471E /* background.js */; };
+		CE85807029E750340013471E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85802329E750340013471E /* content.js */; };
+		CE85807129E750340013471E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85802329E750340013471E /* content.js */; };
+		CE85807229E750340013471E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CE85802429E750340013471E /* popup.html */; };
+		CE85807329E750340013471E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CE85802429E750340013471E /* popup.html */; };
+		CE85807429E750340013471E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CE85802529E750340013471E /* popup.css */; };
+		CE85807529E750340013471E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CE85802529E750340013471E /* popup.css */; };
+		CE85807629E750340013471E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85802629E750340013471E /* popup.js */; };
+		CE85807729E750340013471E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CE85802629E750340013471E /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE85804B29E750340013471E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE85800F29E750320013471E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE85804829E750340013471E;
+			remoteInfo = "Frizon Extension (iOS)";
+		};
+		CE85805529E750340013471E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE85800F29E750320013471E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE85805229E750340013471E;
+			remoteInfo = "Frizon Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE85807D29E750340013471E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE85804A29E750340013471E /* Frizon Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85808429E750340013471E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE85805429E750340013471E /* Frizon Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B74F4CC49FFE202A5E770E43 /* Frizon (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Frizon (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE85801629E750320013471E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		CE85801729E750320013471E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CE85801829E750320013471E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		CE85801929E750320013471E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		CE85801A29E750320013471E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE85801B29E750340013471E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE85801D29E750340013471E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CE85801F29E750340013471E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		CE85802029E750340013471E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CE85802129E750340013471E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CE85802229E750340013471E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		CE85802329E750340013471E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		CE85802429E750340013471E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		CE85802529E750340013471E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		CE85802629E750340013471E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		CE85802B29E750340013471E /* Frizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE85802E29E750340013471E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE85803029E750340013471E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE85803329E750340013471E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE85803629E750340013471E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE85803829E750340013471E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE85803D29E750340013471E /* Frizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE85803F29E750340013471E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE85804229E750340013471E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE85804429E750340013471E /* Frizon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Frizon.entitlements; sourceTree = "<group>"; };
+		CE85804929E750340013471E /* Frizon Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Frizon Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE85804E29E750340013471E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE85805329E750340013471E /* Frizon Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Frizon Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE85805829E750340013471E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE85805929E750340013471E /* Frizon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Frizon.entitlements; sourceTree = "<group>"; };
+		DA294E0087399A8026759C73 /* Frizon (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Frizon (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE85802829E750340013471E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85803A29E750340013471E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85804629E750340013471E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85805029E750340013471E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE85800E29E750320013471E = {
+			isa = PBXGroup;
+			children = (
+				CE85801329E750320013471E /* Shared (App) */,
+				CE85801C29E750340013471E /* Shared (Extension) */,
+				CE85802D29E750340013471E /* iOS (App) */,
+				CE85803E29E750340013471E /* macOS (App) */,
+				CE85804D29E750340013471E /* iOS (Extension) */,
+				CE85805729E750340013471E /* macOS (Extension) */,
+				CE85802C29E750340013471E /* Products */,
+				DA294E0087399A8026759C73 /* Frizon (iOS)-Bridging-Header.h */,
+				B74F4CC49FFE202A5E770E43 /* Frizon (macOS)-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		CE85801329E750320013471E /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE85801A29E750320013471E /* ViewController.swift */,
+				CE85801B29E750340013471E /* Assets.xcassets */,
+				CE85801429E750320013471E /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		CE85801429E750320013471E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE85801529E750320013471E /* Main.html */,
+				CE85801729E750320013471E /* Icon.png */,
+				CE85801829E750320013471E /* Style.css */,
+				CE85801929E750320013471E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE85801C29E750340013471E /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE85801D29E750340013471E /* SafariWebExtensionHandler.swift */,
+				CE85801E29E750340013471E /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		CE85801E29E750340013471E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE85801F29E750340013471E /* _locales */,
+				CE85802029E750340013471E /* images */,
+				CE85802129E750340013471E /* manifest.json */,
+				CE85802229E750340013471E /* background.js */,
+				CE85802329E750340013471E /* content.js */,
+				CE85802429E750340013471E /* popup.html */,
+				CE85802529E750340013471E /* popup.css */,
+				CE85802629E750340013471E /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE85802C29E750340013471E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE85802B29E750340013471E /* Frizon.app */,
+				CE85803D29E750340013471E /* Frizon.app */,
+				CE85804929E750340013471E /* Frizon Extension.appex */,
+				CE85805329E750340013471E /* Frizon Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE85802D29E750340013471E /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE85802E29E750340013471E /* AppDelegate.swift */,
+				CE85803029E750340013471E /* SceneDelegate.swift */,
+				CE85803229E750340013471E /* LaunchScreen.storyboard */,
+				CE85803529E750340013471E /* Main.storyboard */,
+				CE85803829E750340013471E /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		CE85803E29E750340013471E /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE85803F29E750340013471E /* AppDelegate.swift */,
+				CE85804129E750340013471E /* Main.storyboard */,
+				CE85804429E750340013471E /* Frizon.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		CE85804D29E750340013471E /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE85804E29E750340013471E /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CE85805729E750340013471E /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE85805829E750340013471E /* Info.plist */,
+				CE85805929E750340013471E /* Frizon.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE85802A29E750340013471E /* Frizon (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE85807E29E750340013471E /* Build configuration list for PBXNativeTarget "Frizon (iOS)" */;
+			buildPhases = (
+				CE85802729E750340013471E /* Sources */,
+				CE85802829E750340013471E /* Frameworks */,
+				CE85802929E750340013471E /* Resources */,
+				CE85807D29E750340013471E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE85804C29E750340013471E /* PBXTargetDependency */,
+			);
+			name = "Frizon (iOS)";
+			productName = "Frizon (iOS)";
+			productReference = CE85802B29E750340013471E /* Frizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE85803C29E750340013471E /* Frizon (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE85808529E750340013471E /* Build configuration list for PBXNativeTarget "Frizon (macOS)" */;
+			buildPhases = (
+				CE85803929E750340013471E /* Sources */,
+				CE85803A29E750340013471E /* Frameworks */,
+				CE85803B29E750340013471E /* Resources */,
+				CE85808429E750340013471E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE85805629E750340013471E /* PBXTargetDependency */,
+			);
+			name = "Frizon (macOS)";
+			productName = "Frizon (macOS)";
+			productReference = CE85803D29E750340013471E /* Frizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE85804829E750340013471E /* Frizon Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE85807A29E750340013471E /* Build configuration list for PBXNativeTarget "Frizon Extension (iOS)" */;
+			buildPhases = (
+				CE85804529E750340013471E /* Sources */,
+				CE85804629E750340013471E /* Frameworks */,
+				CE85804729E750340013471E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frizon Extension (iOS)";
+			productName = "Frizon Extension (iOS)";
+			productReference = CE85804929E750340013471E /* Frizon Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CE85805229E750340013471E /* Frizon Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE85808129E750340013471E /* Build configuration list for PBXNativeTarget "Frizon Extension (macOS)" */;
+			buildPhases = (
+				CE85804F29E750340013471E /* Sources */,
+				CE85805029E750340013471E /* Frameworks */,
+				CE85805129E750340013471E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frizon Extension (macOS)";
+			productName = "Frizon Extension (macOS)";
+			productReference = CE85805329E750340013471E /* Frizon Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE85800F29E750320013471E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE85802A29E750340013471E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CE85803C29E750340013471E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CE85804829E750340013471E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CE85805229E750340013471E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CE85801229E750320013471E /* Build configuration list for PBXProject "Frizon (iOS)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE85800E29E750320013471E;
+			productRefGroup = CE85802C29E750340013471E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE85802A29E750340013471E /* Frizon (iOS) */,
+				CE85803C29E750340013471E /* Frizon (macOS) */,
+				CE85804829E750340013471E /* Frizon Extension (iOS) */,
+				CE85805229E750340013471E /* Frizon Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE85802929E750340013471E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85805C29E750340013471E /* Icon.png in Resources */,
+				CE85803429E750340013471E /* LaunchScreen.storyboard in Resources */,
+				CE85805A29E750340013471E /* Main.html in Resources */,
+				CE85806029E750340013471E /* Script.js in Resources */,
+				CE85806429E750340013471E /* Assets.xcassets in Resources */,
+				CE85803729E750340013471E /* Main.storyboard in Resources */,
+				CE85805E29E750340013471E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85803B29E750340013471E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85805D29E750340013471E /* Icon.png in Resources */,
+				CE85805F29E750340013471E /* Style.css in Resources */,
+				CE85804329E750340013471E /* Main.storyboard in Resources */,
+				CE85806129E750340013471E /* Script.js in Resources */,
+				CE85806529E750340013471E /* Assets.xcassets in Resources */,
+				CE85805B29E750340013471E /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85804729E750340013471E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85806E29E750340013471E /* background.js in Resources */,
+				CE85807429E750340013471E /* popup.css in Resources */,
+				CE85807229E750340013471E /* popup.html in Resources */,
+				CE85806A29E750340013471E /* images in Resources */,
+				CE85806C29E750340013471E /* manifest.json in Resources */,
+				CE85806829E750340013471E /* _locales in Resources */,
+				CE85807029E750340013471E /* content.js in Resources */,
+				CE85807629E750340013471E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85805129E750340013471E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85806F29E750340013471E /* background.js in Resources */,
+				CE85807529E750340013471E /* popup.css in Resources */,
+				CE85807329E750340013471E /* popup.html in Resources */,
+				CE85806B29E750340013471E /* images in Resources */,
+				CE85806D29E750340013471E /* manifest.json in Resources */,
+				CE85806929E750340013471E /* _locales in Resources */,
+				CE85807129E750340013471E /* content.js in Resources */,
+				CE85807729E750340013471E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE85802729E750340013471E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85806229E750340013471E /* ViewController.swift in Sources */,
+				CE85802F29E750340013471E /* AppDelegate.swift in Sources */,
+				CE85803129E750340013471E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85803929E750340013471E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85806329E750340013471E /* ViewController.swift in Sources */,
+				CE85804029E750340013471E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85804529E750340013471E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85806629E750340013471E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85804F29E750340013471E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85806729E750340013471E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE85804C29E750340013471E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE85804829E750340013471E /* Frizon Extension (iOS) */;
+			targetProxy = CE85804B29E750340013471E /* PBXContainerItemProxy */;
+		};
+		CE85805629E750340013471E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE85805229E750340013471E /* Frizon Extension (macOS) */;
+			targetProxy = CE85805529E750340013471E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE85801529E750320013471E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE85801629E750320013471E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		CE85803229E750340013471E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE85803329E750340013471E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE85803529E750340013471E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE85803629E750340013471E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE85804129E750340013471E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE85804229E750340013471E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE85807829E750340013471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE85807929E750340013471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CE85807B29E750340013471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Frizon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon.Extension;
+				PRODUCT_NAME = "Frizon Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE85807C29E750340013471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Frizon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon.Extension;
+				PRODUCT_NAME = "Frizon Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE85807F29E750340013471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Frizon;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon;
+				PRODUCT_NAME = Frizon;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Frizon (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE85808029E750340013471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Frizon;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon;
+				PRODUCT_NAME = Frizon;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Frizon (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE85808229E750340013471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Frizon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Frizon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon.Extension;
+				PRODUCT_NAME = "Frizon Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE85808329E750340013471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Frizon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Frizon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon.Extension;
+				PRODUCT_NAME = "Frizon Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CE85808629E750340013471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Frizon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Frizon;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon;
+				PRODUCT_NAME = Frizon;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Frizon (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE85808729E750340013471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Frizon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Frizon;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frizon.Frizon;
+				PRODUCT_NAME = Frizon;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Frizon (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE85801229E750320013471E /* Build configuration list for PBXProject "Frizon (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85807829E750340013471E /* Debug */,
+				CE85807929E750340013471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE85807A29E750340013471E /* Build configuration list for PBXNativeTarget "Frizon Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85807B29E750340013471E /* Debug */,
+				CE85807C29E750340013471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE85807E29E750340013471E /* Build configuration list for PBXNativeTarget "Frizon (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85807F29E750340013471E /* Debug */,
+				CE85808029E750340013471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE85808129E750340013471E /* Build configuration list for PBXNativeTarget "Frizon Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85808229E750340013471E /* Debug */,
+				CE85808329E750340013471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE85808529E750340013471E /* Build configuration list for PBXNativeTarget "Frizon (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85808629E750340013471E /* Debug */,
+				CE85808729E750340013471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE85800F29E750320013471E /* Project object */;
+}

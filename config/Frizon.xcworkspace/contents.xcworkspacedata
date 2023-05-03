@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Frizon-Builds.package.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon_Webtheme 1.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Library/Mobile Documents/com~apple~CloudDocs/Frizon.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:frizon.swift/frizon.swift/macOS (App)/Base.lproj/Main.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon.pkg">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Documents/Frizon/Shared (App)/Resources/Script.js">
+   </FileRef>
+   <FileRef
+      location = "group:../iOS (App)/Shared (App)/Resources/Script.js">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon.app">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Library/Mobile Documents/com~apple~CloudDocs/frizon-swift/Frizon (iOS)-Bridging-Header.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../frizon.swift/frizon.swift/config/Frizon (macOS)-Bridging-Header.h">
+   </FileRef>
+   <FileRef
+      location = "group:IOService.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Package.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Swiftify.README.md">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon.entitlements">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon_Webtheme.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon.pdf">
+   </FileRef>
+   <FileRef
+      location = "group:Script.js">
+   </FileRef>
+   <FileRef
+      location = "group:settings.json">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon (iOS)-Bridging-Header.h">
+   </FileRef>
+   <FileRef
+      location = "group:Frizon (macOS)-Bridging-Header.h">
+   </FileRef>
+</Workspace>
